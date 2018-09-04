@@ -1,1 +1,131 @@
-*{margin:0;padding:0;font-family:'Monospace';text-decoration:none;list-style-type:none}.Grid-container{display:grid;grid-template-columns:repeat(12, 1fr);grid-template-rows:auto}.banner1{grid-column:1/13;grid-row:2/3}.banner1 img{display:block;margin-left:auto;margin-right:auto;width:50%;padding-top:15vh}.box1{grid-column:1/13;grid-row:3/4;background-color:#2c001e;text-decoration:none;color:#fff}.box1:hover{color:#772953;background-color:center}.box2{grid-column:1/13;grid-row:4/5;background-color:#772953;text-decoration:none;color:#fff}.box2:hover{color:#000;background-color:center}.box3{grid-column:1/13;grid-row:5/6;background-color:#5e2750;text-decoration:none;color:#fff}.box3:hover{color:#000;background-color:center}.box4{grid-column:1/13;grid-row:6/7;background-color:#77216f;text-decoration:none;color:#fff}.box4:hover{color:#000;background-color:center}
+@charset "UTF-8";
+/* line 4, C:/Users/nbrpr/OneDrive/Hovedforløb/Ubuntu_opgave/resources/scss/main.scss */
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Monospace';
+  text-decoration: none;
+  list-style-type: none;
+}
+
+/* line 11, C:/Users/nbrpr/OneDrive/Hovedforløb/Ubuntu_opgave/resources/scss/main.scss */
+.Grid-container {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: auto;
+}
+
+/* line 16, C:/Users/nbrpr/OneDrive/Hovedforløb/Ubuntu_opgave/resources/scss/main.scss */
+.banner1 {
+  grid-column: 1/13;
+  grid-row: 2/3;
+}
+
+/* line 19, C:/Users/nbrpr/OneDrive/Hovedforløb/Ubuntu_opgave/resources/scss/main.scss */
+.banner1 img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  padding-top: 15vh;
+}
+
+/* line 28, C:/Users/nbrpr/OneDrive/Hovedforløb/Ubuntu_opgave/resources/scss/main.scss */
+.box1 {
+  grid-column: 1/13;
+  grid-row: 3/4;
+  height: 100px;
+  background-color: #2c001e;
+  text-decoration: none;
+  color: white;
+  text-align: center;
+}
+
+/* line 11, C:/Users/nbrpr/OneDrive/Hovedforløb/Ubuntu_opgave/resources/scss/_link.scss */
+.box1:hover {
+  color: black;
+  background-color: #e95420;
+}
+
+/* line 35, C:/Users/nbrpr/OneDrive/Hovedforløb/Ubuntu_opgave/resources/scss/main.scss */
+.box2 {
+  grid-column: 1/13;
+  grid-row: 4/5;
+  height: 100px;
+  background-color: #772953;
+  text-decoration: none;
+  color: white;
+  text-align: center;
+}
+
+/* line 11, C:/Users/nbrpr/OneDrive/Hovedforløb/Ubuntu_opgave/resources/scss/_link.scss */
+.box2:hover {
+  color: black;
+  background-color: #e95420;
+}
+
+/* line 42, C:/Users/nbrpr/OneDrive/Hovedforløb/Ubuntu_opgave/resources/scss/main.scss */
+.box3 {
+  grid-column: 1/13;
+  grid-row: 5/6;
+  height: 100px;
+  background-color: #5e2750;
+  text-decoration: none;
+  color: white;
+  text-align: center;
+}
+
+/* line 11, C:/Users/nbrpr/OneDrive/Hovedforløb/Ubuntu_opgave/resources/scss/_link.scss */
+.box3:hover {
+  color: black;
+  background-color: #e95420;
+}
+
+/* line 49, C:/Users/nbrpr/OneDrive/Hovedforløb/Ubuntu_opgave/resources/scss/main.scss */
+.box4 {
+  grid-column: 1/13;
+  grid-row: 6/7;
+  height: 100px;
+  background-color: #77216f;
+  text-decoration: none;
+  color: white;
+  text-align: center;
+}
+
+/* line 11, C:/Users/nbrpr/OneDrive/Hovedforløb/Ubuntu_opgave/resources/scss/_link.scss */
+.box4:hover {
+  color: black;
+  background-color: #e95420;
+}
+
+/* line 56, C:/Users/nbrpr/OneDrive/Hovedforløb/Ubuntu_opgave/resources/scss/main.scss */
+.image1 {
+  grid-column: 1/7;
+  grid-row: 7/8;
+}
+
+/* line 59, C:/Users/nbrpr/OneDrive/Hovedforløb/Ubuntu_opgave/resources/scss/main.scss */
+.image1 img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  padding-top: 15vh;
+}
+
+/* line 67, C:/Users/nbrpr/OneDrive/Hovedforløb/Ubuntu_opgave/resources/scss/main.scss */
+.image2 {
+  grid-column: 7/13;
+  grid-row: 7/8;
+}
+
+/* line 70, C:/Users/nbrpr/OneDrive/Hovedforløb/Ubuntu_opgave/resources/scss/main.scss */
+.image2 img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  padding-top: 15vh;
+}
+
+/*# sourceMappingURL=../css/main.map */
