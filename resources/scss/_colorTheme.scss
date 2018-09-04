@@ -1,0 +1,29 @@
+// Ubuntu COLORS
+$color-index: (
+ UbuntuOrange:#E95420,
+ CanonicalAubergine:#772953,
+ LightAubergine:#77216F,
+ MidAubergine:#5E2750,
+ DarkAubergine:#2C001E,
+ WarmGrey:#AEA79F,
+ CoolGrey:#333333,
+ TextGrey:#111111,
+ UbuntuWhite:#FFFFFF,
+ UbuntuBlack:#000000
+);
+
+@function color-index($color-key) {
+    @return map-get($color-index, $color-key);
+    }
+
+
+
+// color theme one community
+// $primaryColorOne:$UbuntuOrange;
+// $secondaryColorOne:$WarmGrey;
+// $tertiaryColorOne:$CanonicalAubergine;
+
+// color theme two Canonical
+// $primaryColorTwo:$CanonicalAubergine;
+// $secondaryColorTwo:$UbuntuWhite;
+// $tertiaryColorTwo:$UbuntuOrange;

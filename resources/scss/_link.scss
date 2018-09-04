@@ -1,0 +1,19 @@
+@import "colorTheme";
+
+@mixin my_link($link_dec: null, $link_color: null, $link_hover: null, $link_BGcolor: null, $link_align: null){
+  @if $link_dec {
+      text-decoration: $link_dec;
+  }
+  @if $link_color {
+      color: $link_color;
+  }
+  @if $link_hover {
+      &:hover {
+        color:  $link_hover;
+        background-color: $link_BGcolor;
+      }
+  }
+  @if $link_align {
+      text-align: $link_align;
+  }
+}
